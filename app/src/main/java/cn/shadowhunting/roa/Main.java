@@ -9,7 +9,7 @@ public class Main extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //test
+        //test2
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Bugly.init(getApplicationContext(),"5bbc4bd82e",false);
